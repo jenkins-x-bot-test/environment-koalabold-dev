@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:koalabold/adminUser:password
+  username: admin
+dashboardAuthID: vault:koalabold:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:koalabold:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:koalabold/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:koalabold/prow:hmacToken
